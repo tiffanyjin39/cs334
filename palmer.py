@@ -1,7 +1,6 @@
 """
 Pandas DataFrame Manipulation with Palmer Penguins Dataset
 ~~~~~~
-Follow the instructions in the homework to complete the assignment.
 """
 import pandas as pd
 import numpy as np
