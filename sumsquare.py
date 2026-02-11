@@ -1,7 +1,6 @@
 """
 Vectorization Comparison for Computing Sum of Squares
 ~~~~~~
-Follow the instructions in the homework to complete the assignment.
 """
 
 import timeit
