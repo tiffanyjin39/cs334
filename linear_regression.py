@@ -1,7 +1,6 @@
 """
 Linear Regression
 ~~~~~~
-Follow the instructions in the homework to complete the assignment.
 """
 
 import numpy as np
