@@ -176,26 +176,6 @@ def ls_closed_form_solution(X, y, reg_param=0):
     return theta
 
 
-''' Uncomment this if you are attempting the extra credit
-def weighted_ls_closed_form_solution(X, y, weights, reg_param=0):
-    """
-    Implements the closed form solution for weighted least squares regression.
-
-    Args:
-        X: np.array, shape (N, d)
-        y: np.array, shape (N,)
-        weights: np.array, shape (N,), the weights for each data point
-        reg_param: float, an optional regularization parameter
-
-    Returns:
-        theta: np.array, shape (d,)
-    """
-    # TODO: Implement this function
-    theta = ???
-    return theta
-'''
-
-
 def part_1(fname_train):
     """
     This function should contain all the code you implement to complete part 1
@@ -319,28 +299,9 @@ def part_2(fname_train, fname_validation):
     print("Done!")
 
 
-''' Uncomment this if you are attempting the extra credit
-def extra_credit(fname_train, fname_validation):
-    """
-    This function should contain all the code you implement to complete extra credit
-    """
-    print("=========== Extra Credit ==========")
-
-    X_train, y_train, weights_train = load_data(fname_train, weighted=True)
-    X_validation, y_validation, weights_validation = load_data(fname_validation, weighted=True)
-
-    # TODO: Add more code here to complete the extra credit
-    ##############################
-
-    print("Done!")
-'''
-
-
 def main(fname_train, fname_validation):
     part_1(fname_train)
     part_2(fname_train, fname_validation)
-#    extra_credit(fname_train, fname_validation)
-
 
 if __name__ == '__main__':
     main("data/linreg_train.csv", "data/linreg_validation.csv")
